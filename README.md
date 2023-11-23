@@ -1,1 +1,3 @@
-# LDA-QDA
+# Linear Discriminant Analysis (LDA) & Quadratic Discriminant Analysis (QDA) Classifier:
+
+The Iris Species dataset includes three types of iris species with 50 samples each as well as some properties about each flower. Therer are 4 features/attributes and three classes. A 5-Fold cross-validation to evaluate the classification performance of a Linear Discriminant Analysis and Quadratic Discriminant Analysis classifier will be carried out. The best classifier will be determined based on overall model performance as well as taking into account each classifiers Confusion Matrix, sensitivity, specificity, total accuracy, F1-score, and ROC & AUC curve.

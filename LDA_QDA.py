@@ -24,7 +24,7 @@ from sklearn.preprocessing import LabelEncoder #import package to transform targ
 from sklearn.multiclass import OneVsRestClassifier # import store package to aid in plot for multiclass roc graph
 
 """Dataset"""
-iris = pd.read_csv('/Users/faridatlawal/DTSC710/Assignment4/iris.csv') # read in dataset from file on computer and save to a variable name for access in python
+iris = pd.read_csv('/Users/faridatl/Downloads/iris.csv') # read in dataset from file on computer and save to a variable name for access in python
 le = LabelEncoder() # save function name for easier usuage 
 iris['species']=le.fit_transform(iris['species']) # transform target variables to integers: Setosa is 0, Versicolor is 1 and Virginica is 2
 iris.isnull().sum() # check dataset for any null values 
